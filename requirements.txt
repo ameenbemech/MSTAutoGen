@@ -1,0 +1,10 @@
+streamlit
+python-docx
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+PyPDF2
+docx2txt
+openai
+tqdm
