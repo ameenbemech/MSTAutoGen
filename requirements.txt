@@ -1,10 +1,23 @@
-streamlit
-python-docx
-langchain
-langchain-community
-faiss-cpu
-sentence-transformers
-PyPDF2
-docx2txt
-openai
-tqdm
+# --- Web UI ---
+streamlit==1.39.0
+
+# --- Word processing ---
+python-docx==1.1.2
+docx2txt==0.8
+
+# --- LangChain & AI stack ---
+langchain==0.2.14
+langchain-community==0.2.12
+sentence-transformers==3.1.1
+faiss-cpu==1.8.0.post1
+
+# --- PDF loading ---
+PyPDF2==3.0.1
+
+# --- OpenAI API ---
+openai==1.50.2
+
+# --- Utility / Helpers ---
+tqdm==4.66.5
+requests==2.32.3
+pandas==2.2.3
